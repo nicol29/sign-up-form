@@ -27,7 +27,7 @@ img[src*="odin"] {
     height: 100%;
     width: 60%;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -44,7 +44,7 @@ p {
 }
 
 .paragraph-content :last-child {
-    margin-bottom: 60px;
+    margin-bottom: 125px;
     font-size: 1.10rem;;
 }
 
@@ -90,7 +90,8 @@ button {
     width: 205px;
     border: 1px solid #162027;
     border-radius: 2px;
-    background-color: #849aab;
+    background-color: #162027;
+    color: #849aab;
 }
 
 .overlay-logo {
@@ -118,5 +119,18 @@ a {
     font-size: .9rem;
 }
 
+.already-account {
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #849aab;
+}
+
+.already-account a {
+    text-decoration: none;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
 
 
